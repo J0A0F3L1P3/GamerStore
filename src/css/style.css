@@ -1,13 +1,22 @@
+* {
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
 
 .jumbotron {
-    background-image: url('background.jpg');
+    background-image: url('../img/junbotrom-bg.jpg');
     background-size: cover;
+    background-position: center top;
     color: white;
-    text-align: center;
-    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
 }
 
 .jumbotron h1 {
