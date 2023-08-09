@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #FF5733;
+    border-color: #FF5733;
+}
