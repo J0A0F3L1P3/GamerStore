@@ -14,27 +14,29 @@
 <body>
     <header>
         <nav class="container navbar navbar-expand-lg navbar-dark bg-dark justify-content-around fixed-top">
-            <a class="navbar-brand" href="#">GZ</a>
-            <form class="d-flex">
-                <input class="form-control search-product" placeholder="Pesquisar">
-                <button class="btn search-icon" type="submit"><i class="fas fa-search text-info"></i></button>
+            <a class="navbar-brand text-danger" href="#">GZ</a>
+            <form class="d-flex w-50">
+                <input class="form-control search-product border-danger" placeholder="Pesquisar">
+                <button class="btn search-icon btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
             </form>
             <input type="checkbox" name="bolsa" id="bolsa" style="display: none;">
-            <label for="bolsa"><i class="fa-solid fa-cart-shopping btn btn-secondary"></i></label>
+            <label for="bolsa"><i class="fa-solid fa-cart-shopping btn btn-outline-danger"></i></label>
         </nav>
     </header>
     <main class="pb-5">
         <section class="jumbotron">
-            <h1>Bem-vindo à nossa Loja Online</h1>
-            <p>Encontre os melhores produtos com os melhores preços!</p>
-            <a href="#produtos" class="btn btn-primary btn-lg">Ver Produtos</a>
+            <div class="container jumbotron-div">
+                <h1>Bem-vindo à nossa Loja Online</h1>
+                <p>Encontre os melhores produtos com os melhores preços!</p>
+                <a href="#produtos" class="btn btn-primary btn-lg">Ver Produtos</a>
+            </div>
         </section>
 
         <section id="produtos" class="container mt-5">
-            <div class="d-flex justify-content-between">
+            <div>
                 <h2>Nossos Produtos</h2>
 
-                <div class="btn-group mb-3">
+                <div class="btn-group mt-3 w-100">
                     <button class="btn btn-secondary">Todos</button>
                     <button class="btn btn-secondary">Monitor</button>
                     <button class="btn btn-secondary">Gabinete</button>
@@ -44,7 +46,7 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
                     <div class="card pt-3 card-product">
                         <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
@@ -193,8 +195,8 @@
                 </div>
             </div>
             <hr>
-            <div class="d-flex justify-content-between">
-                <div>
+            <div class="d-flex justify-content-between politic">
+                <div class="mr-3">
                     <p>&copy; 2023 GamerStore. Todos os direitos reservados.</p>
                 </div>
                 <div>

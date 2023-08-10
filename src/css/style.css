@@ -5,17 +5,11 @@
 
 body {
     font-family: Arial, sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 /* header */
-
-.search-product {
-    padding-right: 35px;
-}
-
-.search-icon {
-    margin-left: -40px;
-}
 
 .jumbotron {
     background-image: url('../img/junbotrom-bg.jpg');
