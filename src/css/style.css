@@ -1,11 +1,10 @@
 * {
     scroll-behavior: smooth;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 105px;
 }
 
 body {
     font-family: Arial, sans-serif;
-    min-width: 100vw;
     min-height: 100vh;
 }
 
@@ -20,6 +19,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.slide-1 {
+    background-image: url('../img/home-slide-products.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-2 {
+    background-image: url('../img/pexels-tima-miroshnichenko-6498310.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-3 {
+    background-image: url('../img/pexels-alena-darmel-7862675.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-4 {
+    background-image: url('../img/home-slide-experience.jpg');
+    background-size: cover;
+    background-position: center top;
 }
 
 .jumbotron h1 {
