@@ -64,8 +64,8 @@ body {
 }
 
 .card-benefits {
-    height: 300px;
-    background: linear-gradient(to top, #8C1F28 0%, transparent 40%), url("https://via.placeholder.com/120x120");
+    /* height: 300px;
+    background: linear-gradient(to top, #8C1F28 0%, transparent 40%), url("https://via.placeholder.com/120x120"); */
     background-size: cover;
     background-position: center;
 }
