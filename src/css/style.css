@@ -20,7 +20,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 85vh;
 }
 
 .jumbotron h1 {
@@ -35,4 +34,8 @@ body {
 .btn-primary {
     background-color: #c72501;
     border: none;
+}
+
+.carousel-item {
+    min-height: 85vh;
 }
