@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <title>Produtos - GamerZone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-dark justify-content-around">
+            <a class="navbar-brand text-danger" href="#teclado">GZ</a>
+            <form class="d-flex w-75">
+                <input class="form-control search-product border-danger" placeholder="Pesquisar">
+                <button class="btn search-icon btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <input type="checkbox" name="bolsa" id="bolsa" style="display: none;">
+            <label for="bolsa"><i class="fas fa-cart-shopping btn btn-outline-danger"></i></label>
+        </nav>
+    </header>
+
+    <main class="container mt-3">
+        <div class="bg-light anuncio display-1 d-flex justify-content-around my-5">ANÚNCIO</div>
+        <div class="row">
+            <div class="col-lg-3 filtros card">
+                <h4>Filtros</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="teclado" checked>
+                            <label class="form-check-label" for="teclado">
+                              Teclado
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="mouse" checked>
+                            <label class="form-check-label" for="mouse">
+                              Mouse
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="monitor" checked>
+                            <label class="form-check-label" for="monitor">
+                              Monitor
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="headphone" checked>
+                            <label class="form-check-label" for="headphone">
+                              HeadPhone
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="outros" checked>
+                            <label class="form-check-label" for="outros">
+                              Outro: 
+                            </label>
+                            <input type="text" name="outros" id="outros" class="form-control d-none" disabled>
+                          </div>
+                    </li>
+                    <li>
+                        <input type="text" name="marca" class="form-control mt-2" id="marca">
+                    </li>
+                    <li>
+                        <input type="text" name="cor" class="form-control mt-2" id="cor">
+                    </li>
+                    <li>
+                        <input type="text" name="preço" class="form-control mt-2" id="preço">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                <h2 class="mb-4">Produtos</h2>
+
+                <div class="btn-group mb-5 w-100">
+                    <button class="btn btn-secondary">Todos</button>
+                    <button class="btn btn-secondary">Monitor</button>
+                    <button class="btn btn-secondary">Gabinete</button>
+                    <button class="btn btn-secondary">Fone</button>
+                    <button class="btn btn-secondary">Teclado</button>
+                    <button class="btn btn-secondary">Mouse</button>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Processador i5, 8GB RAM, 256GB SSD.</p>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

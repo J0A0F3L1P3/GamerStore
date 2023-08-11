@@ -3,17 +3,14 @@
     scroll-margin-top: 105px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
+.btn-primary {
+    background-color: #c72501;
+    border: none;
 }
 
-/* header */
+/* HOME */
 
 .jumbotron {
-    background-image: url('../img/junbotrom-bg.jpg');
-    background-size: cover;
-    background-position: center top;
     color: white;
     display: flex;
     flex-direction: column;
@@ -54,18 +51,13 @@ body {
     font-size: 1.5rem;
 }
 
-.btn-primary {
-    background-color: #c72501;
-    border: none;
-}
-
 .carousel-item {
     min-height: 85vh;
 }
 
+/* MAIN */
+
 .card-benefits {
-    /* height: 300px;
-    background: linear-gradient(to top, #8C1F28 0%, transparent 40%), url("https://via.placeholder.com/120x120"); */
     background-size: cover;
     background-position: center;
 }

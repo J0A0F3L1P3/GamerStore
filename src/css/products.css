@@ -1,0 +1,10 @@
+.filtros {
+    position: sticky;
+    top: 50px;
+    height: 320px;
+}
+
+.anuncio {
+    height: 100px;
+    width: 100%;
+}
