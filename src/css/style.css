@@ -64,6 +64,7 @@
 
 .vlogMosaico {
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 80vh;
@@ -71,40 +72,48 @@
 
 .vlog-1 {
     grid-area: 1/ 1/ 3/ 2;
-    background: blue;
+    background: url('../img/mosaico/pexels-tima-miroshnichenko-6498791.jpg');
+    background-size: cover;
 }
 
 .vlog-2 {
     grid-area: 3/ 1/ 4/ 3;
-    background: orange;
+    background: url('../img/mosaico/pexels-tima-miroshnichenko-5699397.jpg');
+    background-size: cover;
 }
 
 .vlog-3 {
     grid-area: 1/ 2/ 2/ 3;
-    background: purple;
+    background: url('../img/mosaico/pexels-erik-mclean-7360387.jpg');
+    background-size: cover;
 }
 
 .vlog-4 {
     grid-area: 1/ 3/ 2/ 5;
-    background: pink;
+    background: url('../img/mosaico/pexels-tima-miroshnichenko-6498946.jpg');
+    background-size: cover;
 }
 
 .vlog-5 {
     grid-area: 2/ 2/ 3/ 3;
-    background: yellow;
+    background: url('../img/mosaico/pexels-tima-miroshnichenko-7047000.jpg');
+    background-size: cover;
 }
 
 .vlog-6 {
     grid-area: 2/ 3/ 3/ 4;
-    background: red;
+    background: url('../img/mosaico/jessica-lewis-DeyfdybVQhA-unsplash.jpg');
+    background-size: cover;
 }
 
 .vlog-7 {
     grid-area: 2/ 4/ 4/ 5;
-    background: blue;
+    background: url('../img/mosaico/pexels-rdne-stock-project-8098272.jpg');
+    background-size: cover;
 }
 
 .vlog-8 {
     grid-area: 3/ 3/ 4/ 4;
-    background: green;
+    background: url('../img/mosaico/fredrick-tendong-HVYepJYeHdQ-unsplash.jpg');
+    background-size: cover;
 }
