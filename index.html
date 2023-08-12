@@ -14,15 +14,38 @@
 <body>
     <header>
         <nav class="container navbar navbar-expand-lg navbar-dark bg-dark justify-content-around fixed-top">
-            <a class="navbar-brand text-danger" href="./index.html">GZ</a>
+            <a class="navbar-brand text-danger btn-outline-danger" href="/index.html">GZ</a>
             <form class="d-flex w-75">
                 <input class="form-control search-product border-danger" placeholder="Pesquisar">
                 <button class="btn search-icon btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
             </form>
             <input type="checkbox" name="carrinho" id="carrinho" style="display: none;">
-            <label for="carrinho"><i class="fas fa-cart-shopping btn btn-outline-danger"></i></label>
+            <label for="carrinho"><i class="fas fa-user btn btn-outline-danger"></i></label>
         </nav>
     </header>
+
+    <div class="perfil-itens text-bg-dark ">
+        <ul class="list-unstyled">
+            <li class="d-none">
+                <img src="https://via.placeholder.com/120x120" alt="perfil-print">
+                <h4 class="name">Seu nome</h4>
+            </li>
+            <li>
+                <p>Bem vindo ao GamerZone!</p>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-danger">Registrar</a>
+                    <a href="#" class="btn btn-primary">Entrar</a>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <a class="btn btn-dark">Central de mensagens</a><br>
+                <a class="btn btn-dark">Lista de desejos</a><br>
+                <a class="btn btn-dark">Baixe o aplicativo</a><br>
+            </li>
+        </ul>
+    </div>
+
     <main class="pb-5 bg-light">
         <section id="carouselHome" class="jumbotron carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -37,28 +60,28 @@
                     <div class="carousel-caption">
                         <h1>Bem-vindo à nossa Loja Online</h1>
                         <p>Encontre os melhores produtos com os melhores preços!</p>
-                        <a href="#produtos" class="btn btn-primary btn-lg">Ver Produtos</a>
+                        <a href="#produtos" class="btn btn-danger btn-lg">Ver Produtos</a>
                     </div>
                 </div>
                 <div class="carousel-item slide-2" data-bs-interval="3000">
                     <div class="carousel-caption">
                         <h1>Descubra Nossos Lançamentos Exclusivos</h1>
                         <p>Explore nossos produtos mais recentes e inovadores, escolhidos especialmente para você.</p>
-                        <a href="#produtos" class="btn btn-primary btn-lg">Ver Lançamentos</a>
+                        <a href="#produtos" class="btn btn-danger btn-lg">Ver Lançamentos</a>
                     </div>
                 </div>
                 <div class="carousel-item slide-3" data-bs-interval="3000">
                     <div class="carousel-caption">
                         <h1>Aproveite as Ofertas da Semana</h1>
                         <p>Economize em produtos selecionados com descontos especiais por tempo limitado.</p>
-                        <a href="#produtos" class="btn btn-primary btn-lg">Ver Ofertas</a>
+                        <a href="#produtos" class="btn btn-danger btn-lg">Ver Ofertas</a>
                     </div>
                 </div>
                 <div class="carousel-item slide-4" data-bs-interval="3000">
                     <div class="carousel-caption">
                         <h1>Explore Nossa Coleção</h1>
                         <p>Encontre os melhores acessórios e equipamentos para aprimorar sua experiência de jogo.</p>
-                        <a href="#produtos" class="btn btn-primary btn-lg">Ver Coleção</a>
+                        <a href="#produtos" class="btn btn-danger btn-lg">Ver Coleção</a>
                     </div>
                 </div>
             </div>
