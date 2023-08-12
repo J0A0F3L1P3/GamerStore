@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <title>Produtos - GamerZone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-dark justify-content-around">
+            <a class="navbar-brand text-danger" href="../../index.html">GZ</a>
+            <form class="d-flex w-75">
+                <input class="form-control search-product border-danger" placeholder="Pesquisar">
+                <button class="btn search-icon btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <input type="radio" name="ordenar" name="bolsa" id="bolsa" style="display: none;">
+            <label for="bolsa"><i class="fas fa-cart-shopping btn btn-outline-danger"></i></label>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="bg-light anuncio display-1 d-flex justify-content-around my-2 mb-5">ANÚNCIO</div>
+        <div class="row">
+            <div class="col-md-3 filtros card mb-5">
+                <ul class="list-unstyled">
+                    <li>
+                        <h4 class="card-title">Ordenar por:</h4>
+                        <div class="form-radio">
+                            <input class="form-check-input " type="radio" name="ordenar" value="" id="teclado">
+                            <label class="form-check-label" for="teclado">
+                                Mais caro
+                            </label>
+                        </div>
+                        <div class="form-radio">
+                            <input class="form-check-input " type="radio" name="ordenar" value="" id="mouse">
+                            <label class="form-check-label" for="mouse">
+                                Mais barato
+                            </label>
+                        </div>
+                        <div class="form-radio">
+                            <input class="form-check-input " type="radio" name="ordenar" value="" id="monitor">
+                            <label class="form-check-label" for="monitor">
+                                Mais recente
+                            </label>
+                        </div>
+                        <div class="form-radio">
+                            <input class="form-check-input " type="radio" name="ordenar" value="" id="headphone">
+                            <label class="form-check-label" for="headphone">
+                                Mais antigo
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="card-title mt-4">Filtrar por:</h4>
+                        <input type="text" name="marca" placeholder="marca" class="form-control mt-2" id="marca">
+                        <input type="text" name="cor" placeholder="cor" class="form-control mt-2" id="cor">
+                        <input type="text" name="preco" placeholder="preço" class="form-control mt-2" id="preco">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                <h2 class="mb-4">Produtos</h2>
+
+                <div class="btn-group mb-5 w-100">
+                    <button class="btn btn-dark text-danger">Todos</button>
+                    <button class="btn btn-dark text-danger">Informatica</button>
+                    <button class="btn btn-dark text-danger">Esporte</button>
+                    <button class="btn btn-dark text-danger">Saude</button>
+                    <button class="btn btn-dark text-danger">Agro</button>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Notebook HP XYZ</h5>
+                                <p class="card-text">Preço: R$3.499,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
