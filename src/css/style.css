@@ -62,58 +62,104 @@
     background-position: center;
 }
 
+/* MOSAICO DO VLOG */
+
 .vlogMosaico {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
+}
+
+.vlogMosaico1 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 80vh;
+    width: 100%;
 }
+
+.vlogMosaico2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 80vh;
+    width: 100%;
+}
+
+@media(max-width: 990px) {
+    .vlogMosaico {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .vlogMosaico1 {
+        height: 80vw;
+    }
+    
+    .vlogMosaico2 {
+        height: 80vw;
+    }
+}
+
+/* MOSAICO ESQUERDA/CIMA */
 
 .vlog-1 {
     grid-area: 1/ 1/ 3/ 2;
     background: url('../img/mosaico/pexels-tima-miroshnichenko-6498791.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .vlog-2 {
     grid-area: 3/ 1/ 4/ 3;
     background: url('../img/mosaico/pexels-tima-miroshnichenko-5699397.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .vlog-3 {
     grid-area: 1/ 2/ 2/ 3;
     background: url('../img/mosaico/pexels-erik-mclean-7360387.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .vlog-4 {
-    grid-area: 1/ 3/ 2/ 5;
-    background: url('../img/mosaico/pexels-tima-miroshnichenko-6498946.jpg');
-    background-size: cover;
-}
-
-.vlog-5 {
     grid-area: 2/ 2/ 3/ 3;
     background: url('../img/mosaico/pexels-tima-miroshnichenko-7047000.jpg');
     background-size: cover;
+    background-position: center;
+}
+
+/* MOSAICO DIREITA/BAIXO */
+
+.vlog-5 {
+    grid-area: 1/ 1/ 2/ 3;
+    background: url('../img/mosaico/pexels-tima-miroshnichenko-6498946.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .vlog-6 {
-    grid-area: 2/ 3/ 3/ 4;
+    grid-area: 2/ 1/ 3/ 2;
     background: url('../img/mosaico/jessica-lewis-DeyfdybVQhA-unsplash.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .vlog-7 {
-    grid-area: 2/ 4/ 4/ 5;
+    grid-area: 2/ 2/ 4/ 3;
     background: url('../img/mosaico/pexels-rdne-stock-project-8098272.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .vlog-8 {
-    grid-area: 3/ 3/ 4/ 4;
+    grid-area: 3/ 1/ 4/ 2;
     background: url('../img/mosaico/fredrick-tendong-HVYepJYeHdQ-unsplash.jpg');
     background-size: cover;
+    background-position: center;
 }
