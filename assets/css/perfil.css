@@ -1,0 +1,12 @@
+/* DIV PERFIL */
+.perfil-itens {
+    position: fixed;
+    top: -10000px;
+    width: 100vw;
+    align-self: right;
+    z-index: 999999;
+}
+
+#carrinho:checked ~ .perfil-itens {
+    top: 55px;
+}

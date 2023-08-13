@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/perfil.css">
     <title>GamerZone</title>
 </head>
 
@@ -19,32 +20,36 @@
                 <input class="form-control search-product border-danger" placeholder="Pesquisar">
                 <button class="btn search-icon btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
             </form>
-            <input type="checkbox" name="carrinho" id="carrinho" style="display: none;">
             <label for="carrinho"><i class="fas fa-user btn btn-outline-danger"></i></label>
         </nav>
-    </header>
 
-    <div class="perfil-itens text-bg-dark ">
-        <ul class="list-unstyled">
-            <li class="d-none">
-                <img src="https://via.placeholder.com/120x120" alt="perfil-print">
-                <h4 class="name">Seu nome</h4>
-            </li>
-            <li>
-                <p>Bem vindo ao GamerZone!</p>
-                <div class="btn-group">
-                    <a href="#" class="btn btn-danger">Registrar</a>
-                    <a href="#" class="btn btn-primary">Entrar</a>
+        <input type="checkbox" name="carrinho" id="carrinho" style="display: none;">
+        <div class="perfil-itens">
+            <div class="container">
+                <div class="d-flex justify-content-end">
+                    <ul class="list-unstyled text-bg-dark p-3">
+                        <li class="d-none">
+                            <img src="https://via.placeholder.com/120x120" alt="perfil-print">
+                            <h4 class="name">Seu nome</h4>
+                        </li>
+                        <li>
+                            <p>Bem vindo ao GamerZone!</p>
+                            <div class="d-flex justify-content-around">
+                                <a href="assets/pages/logPage.html#teste1" class="btn btn-danger">Registrar</a>
+                                <a href="assets/pages/logPage.html" class="btn btn-danger">Entrar</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li>
+                            <a class="btn btn-dark">Central de mensagens</a><br>
+                            <a class="btn btn-dark">Lista de desejos</a><br>
+                            <a class="btn btn-dark">Baixe o aplicativo</a><br>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <hr>
-            <li>
-                <a class="btn btn-dark">Central de mensagens</a><br>
-                <a class="btn btn-dark">Lista de desejos</a><br>
-                <a class="btn btn-dark">Baixe o aplicativo</a><br>
-            </li>
-        </ul>
-    </div>
+            </div>
+        </div>
+    </header>
 
     <main class="pb-5 bg-light">
         <section id="carouselHome" class="jumbotron carousel slide carousel-fade" data-bs-ride="carousel">
@@ -138,8 +143,8 @@
 
                 <div class="row mt-1">
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -147,8 +152,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -156,8 +161,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -165,8 +170,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -174,8 +179,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-md-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -183,8 +188,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -202,8 +207,8 @@
 
                 <div class="row mt-1">
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -211,8 +216,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -220,8 +225,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -229,8 +234,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -238,8 +243,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-md-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -247,8 +252,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -266,8 +271,8 @@
 
                 <div class="row mt-1">
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -275,8 +280,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -284,8 +289,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -293,8 +298,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -302,8 +307,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-md-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
@@ -311,8 +316,8 @@
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block p-2">
-                        <div class="card pt-3 card-product">
-                            <img src="https://via.placeholder.com/1200x1200" class="card-img-top px-3" alt="Produto">
+                        <div class="card card-product">
+                            <img src="https://via.placeholder.com/120x120" class="card-img-top" alt="Produto">
                             <div class="card-body">
                                 <h5 class="card-title">R$ 9<sup>90</sup></h5>
                                 <p class="card-text">Descrição do produto.</p>
