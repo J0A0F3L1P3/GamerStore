@@ -1,12 +1,14 @@
 /* DIV PERFIL */
 .perfil-itens {
     position: fixed;
-    top: -10000px;
+    top: -300px;
     width: 100vw;
-    align-self: right;
-    z-index: 999999;
+    /* align-self: right; */
+    z-index: 999;
+    transition: .3s;
 }
 
 #carrinho:checked ~ .perfil-itens {
     top: 55px;
+    transition: .3s;
 }
