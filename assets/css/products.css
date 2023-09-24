@@ -1,3 +1,7 @@
+body {
+    margin-top: 10vh;
+}
+
 .filtros {
     position: sticky;
     top: 15px;
@@ -5,8 +9,12 @@
 }
 
 .anuncio {
-    height: 100px;
+    background-image: url('../img/products/anuncio/alex-perez-ioJBsYQ-pPM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
     width: 100%;
+    color: #fff;
 }
 
 @media(max-width: 995px) {
